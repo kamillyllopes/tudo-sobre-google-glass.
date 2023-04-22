@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+        <head>
+            <meta charset="utf-8"/>
+            <title>Tudo sobre Google Glass</title>
+            <link rel="stylesheet" href="./css/estilo.css"/>
+            <link rel="stylesheet" href="./css/specs.css">
+        </head>
+        <script src="./javascript/funcoes.js"></script>
+        <body">
+            <div id="interface">
+
+                <header id="cabecalho">
+                    <hgroup>
+                        <h1>Google Glass</h1> 
+                        <h2>A revolução do Google está chegando</h2>
+                    </hgroup>
+
+                 <img id="icone" src="./imagens/especificacoes.png" alt="oculos preto pequeno">
+
+                    <NAV id="menu">
+                    <h1>Menu Principal</h1>
+                    <ul>
+                        <li onmouseover="mudaFoto('./imagens/home.png')" onmouseout="mudaFoto('./imagens/especificacoes.png')"><a href="index.html">Home</a></li>
+                        <li onmouseover="mudaFoto('./imagens/especificacoes.png')" onmouseout="mudaFoto('./imagens/especificacoes.png')"><a href="index.html"><a href="specs.html">Especificações</a></li>
+                        <li onmouseover="mudaFoto('./imagens/fotos.png')" onmouseout="mudaFoto('./imagens/especificacoes.png')"><a href="index.html"><a href="fotos.html">Fotos</a></li>
+                        <li onmouseover="mudaFoto('./imagens/multimidia.png')" onmouseout="mudaFoto('./imagens/especificacoes.png')"><a href="index.html"><a href="multimidia.html">Multimídia</a></li>
+                        <li onmouseover="mudaFoto('./imagens/contato.png')" onmouseout="mudaFoto('./imagens/especificacoes.png')"><a href="index.html"><a href="fale-conosco.html">Fale conosco</a></li>
+                    </ul>
+                    </NAV>
+
+                </header>
+
+                <section id="corpo-full"> 
+                    <article id="noticiap">
+                        <header id="cabecalhoart">
+                         <hgroup>
+                             <h3>Glass >  &nbsp;Especificações</h3>
+                             <h1>Raio-X no Google Glass</h1>
+                             <h2>Por Kamilly Lopes</h2>
+                             <h3 class="direita">Atualizado em Abril/2023</h3>
+                         </hgroup>
+                        </header>
+                    
+                        <p> Clique em qualquer área destacada da imagem para ter mais informações sobre os recursos do Google Glass. Qualquer ponto vermelho vai te levar a um lugar cheio de novas informações.</p>
+
+                        <section id="conteudo">
+                            <img src="./imagens/glass-esquema-marcado.jpg" usemap="#meumapa" alt="Projeto Google Glass">
+                            <map name="meumapa">
+                                <area shape="rect" coords="186,222,262,244" href="google-glass.html#tela" target="janela" alt="Tela do Google Glass">
+
+                                <area shape="circle" coords="157,242,12" href="google-glass.html#camera" target="janela" alt="Camera do Google Glass">
+
+                                <area shape="circle" coords="75,51,13" href="google-glass.html#bateria" target="janela" alt="Bateria do Google Glass">
+
+                                <area shape="poly" coords="28,147,81,215,83,249,26,167" href="google-glass.html#sensores" target="janela" alt="Sensores do Google Glass">
+                            </map>
+                            <iframe src="google-glass.html" name="janela" id="frame-spec" frameborder="0"></iframe>
+                        </section>
+                    </article>
+                </section>
+
+                <footer id="rodape">
+                 <p> Copyright &copy; 2023 - by Kamilly Lopes <br/>  <a href="https://github.com/KamillyLLopes" target="_blank">GitHub</a> | 
+        
+                 <a href="https://www.linkedin.com/in/kamilly-lopes-07593326a" target="_blank">LinkedIn</a></p>
+                </footer>
+
+            </div>
+        </body>
+    </HTMl>
